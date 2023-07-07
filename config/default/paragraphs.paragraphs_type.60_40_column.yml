@@ -1,0 +1,10 @@
+uuid: c94412d6-af08-40fb-84f6-24f2f2ef1221
+langcode: en
+status: true
+dependencies: {  }
+id: 60_40_column
+label: 60-40-column
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

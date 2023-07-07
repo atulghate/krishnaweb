@@ -1,0 +1,23 @@
+uuid: b2e47431-46a7-47d9-bbf0-5e91bfa3a839
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_alignment
+    - paragraphs.paragraphs_type.60_40_column
+  module:
+    - options
+id: paragraph.60_40_column.field_alignment
+field_name: field_alignment
+entity_type: paragraph
+bundle: 60_40_column
+label: Alignment
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Image Left Text Right'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,31 @@
+uuid: e19043ce-8b8f-41fb-ad74-afddafa0013d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_60_40_column
+    - node.type.page
+    - paragraphs.paragraphs_type.60_40_column
+  module:
+    - entity_reference_revisions
+id: node.page.field_60_40_column
+field_name: field_60_40_column
+entity_type: node
+bundle: page
+label: 60-40-column
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      60_40_column: 60_40_column
+    negate: 0
+    target_bundles_drag_drop:
+      60_40_column:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

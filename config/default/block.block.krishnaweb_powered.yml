@@ -1,0 +1,22 @@
+uuid: 66e69d2d-83b9-419a-865a-223af9a5e82a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - krishnaweb
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: krishnaweb_powered
+theme: krishnaweb
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

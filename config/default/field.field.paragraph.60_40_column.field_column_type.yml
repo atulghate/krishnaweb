@@ -1,0 +1,23 @@
+uuid: d2c6394e-f97b-4677-a3bd-e7fe44e015f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_column_type
+    - paragraphs.paragraphs_type.60_40_column
+  module:
+    - options
+id: paragraph.60_40_column.field_column_type
+field_name: field_column_type
+entity_type: paragraph
+bundle: 60_40_column
+label: 'Column Type'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: column-40-60
+default_value_callback: ''
+settings: {  }
+field_type: list_string

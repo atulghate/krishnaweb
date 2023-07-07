@@ -1,0 +1,17 @@
+
+{% set classes = [
+    content.field_column_type[0]['#markup'],
+    content.field_alignment[0]['#markup'],
+    alignment-wrapper
+] %}
+
+<div {{ attributes.addClass(classes) }} >
+<div class = "column-container">  
+<div class="image-column">
+    {{ content.field_image }}
+  </div>
+  <div class="text-column">
+    {{ content.field_description }}
+  </div>
+</div>
+</div>

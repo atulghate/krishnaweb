@@ -1,0 +1,22 @@
+uuid: 6dfebd2b-81a4-4123-90ec-3adf34da0015
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - krishnaweb
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: krishnaweb_breadcrumbs
+theme: krishnaweb
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

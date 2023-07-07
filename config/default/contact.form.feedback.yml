@@ -1,0 +1,14 @@
+uuid: 794dbc05-c5c3-4fa8-bfdd-bfed1635dd73
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - atulghate155@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

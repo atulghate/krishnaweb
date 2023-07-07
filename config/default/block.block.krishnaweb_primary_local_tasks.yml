@@ -1,0 +1,22 @@
+uuid: 9bb6ef65-5b35-461c-9126-edb5a2e369ae
+langcode: en
+status: true
+dependencies:
+  theme:
+    - krishnaweb
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: krishnaweb_primary_local_tasks
+theme: krishnaweb
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

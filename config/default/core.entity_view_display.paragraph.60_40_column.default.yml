@@ -1,0 +1,52 @@
+uuid: e83b0d6b-1544-4728-96c8-55e59993b5b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.60_40_column.field_alignment
+    - field.field.paragraph.60_40_column.field_column_type
+    - field.field.paragraph.60_40_column.field_description
+    - field.field.paragraph.60_40_column.field_image
+    - paragraphs.paragraphs_type.60_40_column
+  module:
+    - image
+    - options
+    - text
+id: paragraph.60_40_column.default
+targetEntityType: paragraph
+bundle: 60_40_column
+mode: default
+content:
+  field_alignment:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_column_type:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

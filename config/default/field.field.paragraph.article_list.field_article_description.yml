@@ -1,0 +1,21 @@
+uuid: aab3c221-060f-460b-8662-672447875e35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_article_description
+    - paragraphs.paragraphs_type.article_list
+  module:
+    - text
+id: paragraph.article_list.field_article_description
+field_name: field_article_description
+entity_type: paragraph
+bundle: article_list
+label: 'Article Description'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
